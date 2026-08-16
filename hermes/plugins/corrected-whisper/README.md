@@ -15,17 +15,17 @@ instance.
 
 _Hermes >= 0.20.1_
 
-You'll need to restart the Gateway and the Dashboard after installation.
+### Install via Hermes Dashboard
+
+Install in Plugins > Install from GitHub / Git URL > `agalbourdin/tools/hermes/plugins/corrected-whisper`
 
 ### Install via CLI
+
+You'll need to restart the Gateway and the Dashboard after a CLI install.
 
 ```bash
 hermes plugins install agalbourdin/tools/hermes/plugins/corrected-whisper --enable
 ```
-
-### Install via Hermes Dashboard
-
-Install in Plugins > Install from GitHub / Git URL > `agalbourdin/tools/hermes/plugins/corrected-whisper`
 
 ## Configuration
 
