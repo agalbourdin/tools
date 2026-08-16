@@ -1,0 +1,10 @@
+name: corrected-whisper
+version: "0.2.1"
+description: "Local faster-whisper transcription followed by host-authenticated LLM cleanup."
+author: "Alexis Galbourdin"
+tags: [stt, whisper, gateway]
+config_schema:
+  cleanup_prompt:
+    type: str
+    required: false
+    description: "System prompt used to correct successful Whisper transcriptions."

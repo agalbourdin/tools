@@ -1,0 +1,12 @@
+{
+  "name": "corrected-whisper",
+  "label": "Corrected Whisper",
+  "description": "Configure the LLM prompt used after local Whisper transcription.",
+  "icon": "Settings",
+  "version": "0.2.1",
+  "tab": {
+    "path": "/corrected-whisper",
+    "position": "after:plugins"
+  },
+  "entry": "dist/index.js"
+}
